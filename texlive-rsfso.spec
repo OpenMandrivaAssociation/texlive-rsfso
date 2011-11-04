@@ -60,6 +60,7 @@ similar to that from the Adobe Mathematical Pi script font.
 %doc %{_texmfdistdir}/doc/fonts/rsfso/mh2scr0.png
 %doc %{_texmfdistdir}/doc/fonts/rsfso/rsfso-doc.pdf
 %doc %{_texmfdistdir}/doc/fonts/rsfso/rsfso-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -70,3 +71,5 @@ similar to that from the Adobe Mathematical Pi script font.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
