@@ -1,12 +1,12 @@
-# revision 23462
+# revision 32051
 # category Package
 # catalog-ctan /fonts/rsfso
-# catalog-date 2011-02-18 16:44:14 +0100
+# catalog-date 2013-11-03 08:42:21 +0100
 # catalog-license lppl
-# catalog-version 1
+# catalog-version 1.01
 Name:		texlive-rsfso
-Version:	1
-Release:	2
+Version:	1.01
+Release:	1
 Summary:	A mathematical calligraphic font based on rsfs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/rsfso
@@ -45,8 +45,8 @@ similar to that from the Adobe Mathematical Pi script font.
 %{_texmfdistdir}/fonts/vf/public/rsfso/rsfso10.vf
 %{_texmfdistdir}/fonts/vf/public/rsfso/rsfso5.vf
 %{_texmfdistdir}/fonts/vf/public/rsfso/rsfso7.vf
-%{_texmfdistdir}/tex/latex/public/rsfso/rsfso.sty
-%{_texmfdistdir}/tex/latex/public/rsfso/ursfso.fd
+%{_texmfdistdir}/tex/latex/rsfso/rsfso.sty
+%{_texmfdistdir}/tex/latex/rsfso/ursfso.fd
 %doc %{_texmfdistdir}/doc/fonts/rsfso/README
 %doc %{_texmfdistdir}/doc/fonts/rsfso/mh2scr0.png
 %doc %{_texmfdistdir}/doc/fonts/rsfso/rsfso-doc.pdf
@@ -61,17 +61,3 @@ similar to that from the Adobe Mathematical Pi script font.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-2
-+ Revision: 755743
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-1
-+ Revision: 719468
-- texlive-rsfso
-- texlive-rsfso
-- texlive-rsfso
-- texlive-rsfso
-
