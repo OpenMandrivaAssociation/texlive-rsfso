@@ -6,7 +6,7 @@
 # catalog-version 1.01
 Name:		texlive-rsfso
 Version:	1.01
-Release:	6
+Release:	7
 Summary:	A mathematical calligraphic font based on rsfs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/rsfso
