@@ -1,9 +1,3 @@
-# revision 32051
-# category Package
-# catalog-ctan /fonts/rsfso
-# catalog-date 2013-11-03 08:42:21 +0100
-# catalog-license lppl
-# catalog-version 1.01
 Name:		texlive-rsfso
 Version:	1.02
 Release:	1
@@ -35,22 +29,11 @@ similar to that from the Adobe Mathematical Pi script font.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/fonts/map/dvips/rsfso/rsfso.map
-%{_texmfdistdir}/fonts/tfm/public/rsfso/rrsfso10.tfm
-%{_texmfdistdir}/fonts/tfm/public/rsfso/rrsfso5.tfm
-%{_texmfdistdir}/fonts/tfm/public/rsfso/rrsfso7.tfm
-%{_texmfdistdir}/fonts/tfm/public/rsfso/rsfso10.tfm
-%{_texmfdistdir}/fonts/tfm/public/rsfso/rsfso5.tfm
-%{_texmfdistdir}/fonts/tfm/public/rsfso/rsfso7.tfm
-%{_texmfdistdir}/fonts/vf/public/rsfso/rsfso10.vf
-%{_texmfdistdir}/fonts/vf/public/rsfso/rsfso5.vf
-%{_texmfdistdir}/fonts/vf/public/rsfso/rsfso7.vf
-%{_texmfdistdir}/tex/latex/rsfso/rsfso.sty
-%{_texmfdistdir}/tex/latex/rsfso/ursfso.fd
-%doc %{_texmfdistdir}/doc/fonts/rsfso/README
-%doc %{_texmfdistdir}/doc/fonts/rsfso/mh2scr0.png
-%doc %{_texmfdistdir}/doc/fonts/rsfso/rsfso-doc.pdf
-%doc %{_texmfdistdir}/doc/fonts/rsfso/rsfso-doc.tex
+%{_texmfdistdir}/fonts/map/dvips/rsfso
+%{_texmfdistdir}/fonts/tfm/public/rsfso
+%{_texmfdistdir}/fonts/vf/public/rsfso
+%{_texmfdistdir}/tex/latex/rsfso
+%doc %{_texmfdistdir}/doc/fonts/rsfso
 
 #-----------------------------------------------------------------------
 %prep
