@@ -3,7 +3,7 @@ Version:	60849
 Release:	2
 Summary:	A mathematical calligraphic font based on rsfs
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/rsfso
+URL:		https://www.ctan.org/tex-archive/fonts/rsfso
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rsfso.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/rsfso.doc.r%{version}.tar.xz
